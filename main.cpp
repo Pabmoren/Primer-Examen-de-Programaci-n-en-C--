@@ -98,4 +98,5 @@ int main() {
   else
     preciototal = precio[1] + precio[2];
   printf("El precio total es: %f\n", preciototal);
+  return error;
 }
