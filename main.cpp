@@ -23,7 +23,7 @@ int main() {
   }
   i = 1;
   precio[4] = 0;
-  /* Ejercicio 3: creo la variable a para almacenar un entero, le pido al usuario que introduzca un entero y el programa
+  /* Ejercicio 1: creo la variable a para almacenar un entero, le pido al usuario que introduzca un entero y el programa
      revisa si el entero es mayor menor o igual a cero (positivo, negativo o cero). Tiene manejo de errores si el numero
      introducido no está en los grupos anteriores.
   */
@@ -86,7 +86,7 @@ int main() {
 
   i = 1;
   while(precio[i] != 0) {
-    printf("El programa solo maneja que los precios sean diferentes entre si.\n")
+    printf("El programa solo maneja que los precios sean diferentes entre si.\n");
     printf("Introduzca el precio numero: %d\n", i);
     scanf("%d",&precio[i]);
     i++;
